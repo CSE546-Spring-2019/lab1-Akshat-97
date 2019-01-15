@@ -18,7 +18,7 @@ void compute_file_size(FILE *input_file, FILE *output_file);
 
 int main(int argc, char *argv[])
 {
-	/* Check if the input argumrnts are entered correctly */
+	/* Check if the input arguments are entered correctly */
 	if(argc!=4)
 	{
 		printf("Inavlid number of input arguments, input should be of the form: <input-filename> <search-string> <output-filename> \n");
