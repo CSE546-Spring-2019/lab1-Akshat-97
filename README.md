@@ -11,5 +11,10 @@ The size of the input file along with the number of occuernces are printed on th
 
 #### To run the program, use the following command:
 ``` ./count <input-filename> <search-string> <output-filename>```
-#### TO remove all the executable files:
+
+#### To remove all the executable files:
 ``` make clean```
+
+#### To run a test version of the program:
+##### (search for the string "the" in example1 file)
+``` make test1```
